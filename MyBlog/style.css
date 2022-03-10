@@ -1,0 +1,46 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #404092;
+    height: 64px;
+}
+
+.nav a{
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.nav h1{
+    display: inline-block;
+    color: white;
+    margin: 0 20px;
+}
+
+.nav a.active, .nav a:hover{
+    background: #6c6cb0;
+}
+
+.container{
+    margin-top: 80px;
+}
+
+.article{
+    border: 1px solid gray
+}
+
+.article ~ .article{
+    margin-top: 20px;
+}
+
+.article a{
+    text-decoration: none;
+    color: black;
+}
+
+.about, .single-article p{
+    white-space: pre-line;
+}
